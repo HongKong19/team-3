@@ -5,6 +5,9 @@ from datetime import date
 
 # Create your views here.
 
+def index(request):
+    return render(request, 'cfg_team_3/index.html')
+
 def trackResponsesPerEvent(request, name):
     eventResponseList = []
     for i in Invitation:

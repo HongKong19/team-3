@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e4c19bd-5985-4c6b-a341-efac44c0a17f" name="Default Changelist" comment="" />
+    <list default="true" id="1e4c19bd-5985-4c6b-a341-efac44c0a17f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cfg_team_3/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cfg_team_3/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfg_team_3/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cfg_team_3/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +33,47 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cfg_team_3/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="120">
+              <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cfg_team_3/templates/cfg_team_3/js/npm.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cfg/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding>
+                <element signature="e#627#659#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cfg_team_3/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cfg_team_3/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -48,9 +85,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cfg/urls.py" />
-        <option value="$PROJECT_DIR$/cfg_team_3/urls.py" />
         <option value="$PROJECT_DIR$/cfg/settings.py" />
         <option value="$PROJECT_DIR$/cfg_team_3/templates/cfg_team_3/index.html" />
+        <option value="$PROJECT_DIR$/cfg_team_3/urls.py" />
         <option value="$PROJECT_DIR$/cfg_team_3/views.py" />
       </list>
     </option>
@@ -93,14 +130,6 @@
               <item name="cfg_team_3" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="cfg_team_3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="team-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="team-3" type="462c0819:PsiDirectoryNode" />
-              <item name="cfg_team_3" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="cfg_team_3" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-theme.css" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="team-3" type="b2602c69:ProjectViewProjectNode" />
@@ -211,15 +240,16 @@
       <option name="presentableId" value="Default" />
       <updated>1571370149521</updated>
       <workItem from="1571370150924" duration="12735000" />
-      <workItem from="1571425283837" duration="378000" />
+      <workItem from="1571425283837" duration="1003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13113000" />
+    <option name="totallyTimeSpent" value="13738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -236,7 +266,7 @@
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2951807" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2939759" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -338,16 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cfg_team_3/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="58" lean-forward="true" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cfg/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -355,8 +375,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cfg_team_3/templates/cfg_team_3/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/cfg_team_3/models.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cfg_team_3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cfg/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -370,8 +403,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cfg_team_3/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="120">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
