@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MUSE | About Us</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../"><img src="../image/c_h_minilogo_text.png" style="width: 230px;"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav nav-justified">
+            <li><a href="../about">About Us</a></li>
+            <li><a href="../edge">EDGE</a></li>
+            <li><a href="../contact">Contact Us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <section id="about-header">
+      <div class="context">
+        <div class="sub-header">
+          <img src="../image/a_h_rocket.png" width="220px">
+          <h2>MISSION OF AKA</h2>
+          <p>To help better communication between all things including human beings.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-aka">
+      <div class="context">
+        <div class="section-sub">
+          <h3>So What Do We Do Now</h3>
+          <p>We are providing applications and services to help English communication skills. The technology integrates artificial intelligence and big data to move effectively teach essential communication skills, such as writing and speking, that are often overlook.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-vision">
+      <div class="context">
+        <div class="section-sub">
+          <h3>Vision</h3>
+          <p>"You must be the change you want to see in the world." - by Mahatma Gandhi</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-team">
+      <div class="context">
+        <div class="section-sub">
+          <h3>Our Team</h3>
+          <p>We are exceptionally unique people who are trying to distriburte "the future that is already here." Very Seriously.</p>
+        </div>
+        <?php
+        $names = array("Aaron", "Alex", "Benjamin", "Celina", "Celina Lee", "Cindy", "David", "Ellie", "Eric", "Gina", "Hannah", "Hans", "Hojun", "Jacob", "Jake", "James", "James Lee", "Jay", "Jen", "Jin", "John", "John Kim", "Johny", "Jun", "Juno", "Justin", "Kyle", "Leo", "Mark", "Nam", "Neil", "Rachel", "Raymond", "Ryan", "Shaina", "Sue", "Tony", "Yg", "Zos");
+        $parts = array("Developer", "Triathlon challenger", "Educator", "Accountant", "", "French engineering intern", "Developer", "Data Scientist", "Software Engineer/ Good father of three", "Socialized alien", "Peacemaker", "Developer", "Educator", "Editor/ Content creation", "Apple holic", "One of Musio's fathers/ Musio Team/ AKAON Engineer/ AKA Intelligence Co-Ceo", "Educator", "Developer", "Marketer", "Contents creator", "Just Developer! Just Just Developer!", "Eager Learner / Pragmatist / Homo Spiritus", "Developer", "UX Designer", "Deep learning researcher / Neuro scientist", "Innovator", "Athlete/ Foodie", "MacGyver/ Romantic / Successful", "Developer/ Food lover", "Picto God/ Picto Slavedriver/ Picto Taskmaster", "Hardware Developer", "Designer", "Living foodie", "Dreamer/ Runner", "wishful-thinker/ Love sports", "Visionary/ Foodie", "An androit negotiator / Raconteur", "Developer", "Designer/ Owl");
+        $descriptions = array("Loves people watching, listening to Christian music, going to the movies alone.", "iOS developer. Loves the products of Apple, loves eating them.", "Educating the world with love", "People like the ones who have a sterling sense of fingers.", "", "Learning and designing the tomorrow's Android applications.", "Loves contemplating the wonders of the universe.", "Configuring data for AKA services.", "The mind of man plans his way, But the LORD directs his steps.", "Graphic designer who loves drawing and painting", "Speaking like a peacemaker and working like a charm.", "Breaking the walls down to become a master of creativity", "Educating the world with love", "Packing apps and tests with English grammar goodies.", "Experience in front end & iOS app development technologies.", "Connecting technologies to the world being softer and hotter.", "Educating the world with love", "I enjoy good food, tv shows, movies, and ... apples.", "Marketing.", "Born just to be myself. Never trying to change my nature.", "Mostly develop, other times develop but then occasionally...develop", "Spreading Artificial Intelligence around the world", "Working on the linguistic big data as well as the common statistical big data.", "Designing the unbuilt environment.", "Apply machine learning and artificial intelligence technologies to mirror human behaviors.", "I research primarily in Machine learning and Deep learning.", "Striving to become a novice coder.", "Mobile Applications and book marketing. Management.", "Doing something and fixing human errors on Mobile Dev Team.", "Manager of behind-the-scenes logistics regarding the Picto and Edge Speaking apps.", "Developing hardware system architecture and realize it.", "Designing and shaping identities and information of web & app pages", "To build strategic direction for being the change that we wanna see in the world!", "Pubic enemy of dictators who occupies the Market.", "Supports colleagues to work efficiently in better conditions.", "Always thinking creatively and enjoying good food!", "I work for a fast growing AKA. And earn money.", "Making an artifically intelligent brain.", "Design productivity - UX, product style, logical structure.");
+
+        echo "<div class=\"row profile\">".PHP_EOL;
+        foreach ($names as $i => $name) {
+          if ($i % 4 == 0 && $i > 0) {
+            echo "</div>".PHP_EOL;
+            echo "<div class=\"row profile\">".PHP_EOL;
+          }
+
+          $image = str_replace(" ", "_", $name);
+
+          echo "
+            <div id=\"".$name."\" class=\"col-sm-3 thumb\" style=\"background-image: url(../image/team/".$image.".png)\">
+              <div class=\"white\"></div>
+              <p class=\"name\">".$name."</p>
+              <p class=\"part\">".$parts[$i]."</p>
+              <p class=\"description\">".$descriptions[$i]."</p>
+            </div>
+          ".PHP_EOL;
+        }
+        
+        echo "
+            <div id=\"".$name."\" class=\"col-sm-3 thumb\" style=\"background-image: url(../image/team/recruit.png)\">
+            <a href=\"../contact\">
+              <div class=\"white\"></div>
+              <p class=\"name\"></p>
+              <p class=\"part\">Are you exceptionally unique?</p>
+              <p class=\"description\">Would you want to join?</p>
+            </a>
+            </div>
+          ".PHP_EOL;
+
+        echo "</div>".PHP_EOL;
+        ?>
+      </div>
+    </section>
+
+    <section id="about-investors">
+      <div class="context">
+        <div class="section-sub">
+          <h3>Our Investors</h3>
+
+          <ul>
+            <li>FORMATION 8</li>
+            <li>TECHNO PACIFIC ASSETS LTD.</li>
+            <li>KESEF INVESTMENTS</li>
+            <li>EOGF PARTNERS</li>
+            <li>SHMOOP</li>
+            <li>DAVID LEE (SV ANGEL)</li>
+            <li>JOHN KOO (LG CORPORATION)</li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../"><img src="../image/c_f_minilogo.png" style="width: 152px;"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav nav-justified">
+            <li><a href="../about">About Us</a></li>
+            <li><a href="../edge">EDGE</a></li>
+            <li><a href="http://blog.akaon.com/?cat=10" target="_blank">AI Forum</a></li>
+            <li><a href="../contact">Contact Us</a></li>
+            <li><a href="http://blog.akaon.com" target="_blank">Blog</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.transit.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

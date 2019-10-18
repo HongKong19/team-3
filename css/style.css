@@ -1,0 +1,54 @@
+body {background-repeat:repeat-x; margin:0; padding:0; font-family:'Lucida grande'; font-size:12px; }
+
+img {border:none;}
+
+#body_wrap {background-image:url(../images/background_wrap.png); background-repeat:no-repeat; margin:0 auto; width:870px;}
+
+#header {position:relative; width:870px; height:260px; margin:0 0 10px 0; color:#FFFFFF;}
+
+#language {position:absolute; right:0px; top:14px; display:none;}
+
+#recent {position:absolute; top:234px; left:20px;}
+
+#header #communication {position:absolute; top:222px; right:10px;}
+
+#contents {width:870px; margin:0;}
+#content_10 {position:relative; background-image:url(../images/background_id_10.png); background-repeat:no-repeat; width:870px; height:270px;}
+
+#content_9 {position:relative; background-image:url(../images/background_id_9.png); background-repeat:no-repeat; width:870px; height:270px;}
+
+
+#content_8 {position:relative; background-image:url(../images/background_id_8.png); background-repeat:no-repeat; width:870px; height:270px;}
+
+#content_7 {position:relative; background-image:url(../images/background_id_7.png); background-repeat:no-repeat; width:870px; height:270px;}
+
+#content_6 {position:relative; background-image:url(../images/background_id_6.png); background-repeat:no-repeat; width:870px; height:270px;}
+
+#content_5 {position:relative; background-image:url(../images/background_id_5.png); background-repeat:no-repeat; width:870px; height:270px;}
+
+#content_4 {position:relative; background-image:url(../images/background_id_4.png); background-repeat:no-repeat; width:870px; height:270px;}
+
+#content_3 {position:relative; background-image:url(../images/background_id_3.png); background-repeat:no-repeat; width:870px; height:270px;}
+
+#content_2 {position:relative; background-image:url(../images/background_id_2.png); background-repeat:no-repeat; width:870px; height:270px;}
+
+#content_1 {position:relative; background-image:url(../images/background_id_1.png); background-repeat:no-repeat; width:870px; height:270px;}
+
+#contents #communication {position:absolute; top:212px; right:0px}
+
+.badge {position:absolute;}
+
+p {margin:0; padding:0}
+
+.title {position:absolute; top:23px; right:30px; font-size:36px; color:#994400;}
+
+.title a {text-decoration:none; color:#994400;}
+.title a:hover {text-decoration:underline; color:#994400;}
+
+.description {position:absolute; top:73px; right:30px; width:435px; font-size:18px; color:#dd7711; text-align:right;}
+
+.badge_appstore {position:absolute; top:123px; right:30px;}
+
+#footer {position:relative; width:870px; margin:10px 0; height:40px;}
+
+#footer p {position:absolute; top:14px;}
