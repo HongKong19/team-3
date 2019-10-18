@@ -23,19 +23,19 @@
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+<!--          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">-->
+<!--            <span class="sr-only">Toggle navigation</span>-->
+<!--&lt;!&ndash;            <span class="icon-bar"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;            <span class="icon-bar"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;            <span class="icon-bar"></span>&ndash;&gt;-->
+<!--          </button>-->
           <a class="navbar-brand" href=""><img src="../image/c_h_minilogo_text.png" style="width: 230px;"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav nav-justified">
-            <li><a href=".123213">INVITE</a></li>
-            <li><a href="13123">TRACK</a></li>
-            <li><a href="123213">DASHBOARD</a></li>C
+<!--            <li><a href = ""INVITE</a></li>-->
+<!--            <li><a href="13123">TRACK</a></li>-->
+<!--            <li><a section id="123213">DASHBOARD</a></li>-->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -59,12 +59,106 @@
           <h4>CLICK FOR EVENT NEWS DASHBOARD</h4>
 <!--          <video id="holistic" width="587">-->
 <!--            <source src="../image/home_ani_2.mp4" type="video/mp4">-->
-             <img src="../TEAM3/image/h_m2_stats.png" width="300">
+<!--             <img src="../TEAM3/image/h_m2_stats.png" width="300">-->
 <!--          </video>-->
 
         </div>
+
+          <title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">Concert Analysis</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="../TEAM3/image/1.png" style="width:100%">
+  <img class="mySlides" src="../TEAM3/image/2.png" style="width:100%">
+  <img class="mySlides" src="../TEAM3/image/3.png" style="width:100%">
+<!--  <img class="mySlides" src="../TEAM3/image/h_m2_stats.png" style="width:100%">-->
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+</body>
       </div>
+
+
+<!--               <title>W3.CSS</title>-->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<!--<style>-->
+<!--.mySlides {display:none;}-->
+<!--</style>-->
+<!--<body>-->
+
+<!--<h2 class="w3-center">Customer Analysis</h2>-->
+
+<!--<div class="w3-content w3-display-container">-->
+<!--  <img class="mySlides" src="../TEAM3/image/4.png" style="width:50%">-->
+<!--  <img class="mySlides" src="../TEAM3/image/6.png" style="width:50%">-->
+<!--&lt;!&ndash;  <img class="mySlides" src="../TEAM3/image/3.png" style="width:100%">&ndash;&gt;-->
+<!--&lt;!&ndash;  <img class="mySlides" src="../TEAM3/image/h_m2_stats.png" style="width:100%">&ndash;&gt;-->
+
+<!--  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>-->
+<!--  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>-->
+<!--</div>-->
+
+<!--<script>-->
+<!--var slideIndex = 1;-->
+<!--showDivs(slideIndex);-->
+
+<!--function plusDivs(n) {-->
+<!--  showDivs(slideIndex += n);-->
+<!--}-->
+
+<!--function showDivs(n) {-->
+<!--  var i;-->
+<!--  var x = document.getElementsByClassName("mySlides");-->
+<!--  if (n > x.length) {slideIndex = 1}-->
+<!--  if (n < 1) {slideIndex = x.length}-->
+<!--  for (i = 0; i < x.length; i++) {-->
+<!--    x[i].style.display = "none";-->
+<!--  }-->
+<!--  x[slideIndex-1].style.display = "block";-->
+<!--}-->
+<!--</script>-->
+
+<!--</body>-->
+<!--      </div>-->
+
+
+
+
+
     </section>
+
+
+
 
 
 
@@ -313,59 +407,59 @@ document.addEventListener("click", closeAllSelect);
 
 <table id="customers">
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Customer</th>
+    <th>Email</th>
+    <th>Number</th>
   </tr>
   <tr>
-    <td> Fte</td>
-    <td>Marders</td>
-    <td>Germany</td>
+    <td> Tony Wong</td>
+    <td>realtony@hmail.com</td>
+    <td>64866789</td>
   </tr>
   <tr>
-    <td>Berglunds snabbköp</td>
-    <td>Christina Berglund</td>
-    <td>Sweden</td>
+ <td>Joey  Wong</td>
+    <td>jpeysa@hmail.com</td>
+    <td>64866782</td>
   </tr>
   <tr>
-    <td>Centro  </td>
-    <td>Chang</td>
-    <td>Mexico</td>
+    <td>Joey  Wong</td>
+    <td>jpeysa@hmail.com</td>
+    <td>64866782</td>
   </tr>
   <tr>
-    <td>Ernst DASHBOARD</td>
-    <td>Roger</td>
-    <td>Austria</td>
+    <td>Joey  Wong</td>
+    <td>jpeysa@hmail.com</td>
+    <td>64866782</td>
   </tr>
   <tr>
-    <td>Island Trading</td>
-    <td>Tom</td>
-    <td>UK</td>
+    <td>Joey  Wong</td>
+    <td>jpeysa@hmail.com</td>
+    <td>64866782</td>
   </tr>
   <tr>
-    <td> Essen</td>
-    <td>Jessin</td>
-    <td>France</td>
+    <td>Joey  Wong</td>
+    <td>jpeysa@hmail.com</td>
+    <td>64866782</td>
   </tr>
   <tr>
-    <td>LaughingWinec</td>
-    <td> tortkr</td>
-    <td>China</td>
+    <td>Joey  Wong</td>
+    <td>jpeysa@hmail.com</td>
+    <td>64866782</td>
   </tr>
   <tr>
-    <td>Francis Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Hong Kong</td>
+    <td>Joey  Wong</td>
+    <td>jpeysa@hmail.com</td>
+    <td>64866782</td>
   </tr>
   <tr>
-    <td>North</td>
-    <td>Simonth</td>
-    <td>Thailand</td>
+   <td>Joey  Wong</td>
+    <td>jpeysa@hmail.com</td>
+    <td>64866782</td>
   </tr>
   <tr>
-    <td>Paris spécialités</td>
-    <td>Marie Bertrand</td>
-    <td>Dream</td>
+    <td>Joey  Wong</td>
+    <td>jpeysa@hmail.com</td>
+    <td>64866782</td>
   </tr>
 </table>
 
@@ -452,9 +546,9 @@ document.addEventListener("click", closeAllSelect);
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav nav-justified">
-            <li><a href="234324">INVITE</a></li>
-            <li><a href="234234">TRACK</a></li>
-            <li><a href="2342343" target="_blank">DASHBOARD</a></li>
+<!--            <li><a href="TEST">INVITE</a></li>-->
+<!--            <li><a href="234234">TRACK</a></li>-->
+<!--            <li><a href="2342343" target="_blank">DASHBOARD</a></li>-->
             <li><a href="../contact">CONTACT</a></li>
             <li><a href="3277283782" target="_blank">VR MODE</a></li>
           </ul>
